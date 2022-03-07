@@ -11,6 +11,7 @@ import javax.servlet.http.HttpServletResponse;
 public class TestServlet extends HttpServlet {
 	protected void doGet(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
 		System.out.println("TestServlet");
+		System.out.println("hotfix2 branch");
 	}
 
 	protected void doPost(HttpServletRequest request, HttpServletResponse response) throws ServletException, IOException {
